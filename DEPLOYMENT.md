@@ -46,16 +46,19 @@ git push -u origin main
 #### Option B: Deploy via Vercel CLI
 
 1. Install Vercel CLI:
+
    ```bash
    npm i -g vercel
    ```
 
 2. Login to Vercel:
+
    ```bash
    vercel login
    ```
 
 3. Deploy:
+
    ```bash
    cd "/Users/milapbhanderi/Downloads/Expense Tracker"
    vercel
@@ -69,9 +72,11 @@ git push -u origin main
 ### Step 4: Access Your App
 
 After deployment, Vercel will provide you with a URL like:
+
 - `https://expense-tracker-xyz.vercel.app`
 
 You can:
+
 - Share this URL to access on any device
 - Bookmark it on your phone for easy access
 - Set up a custom domain in Vercel dashboard (optional)
@@ -91,6 +96,7 @@ You can:
 ## 🔄 Continuous Deployment
 
 Once connected to Git:
+
 - Every push to the main branch automatically triggers a new deployment
 - Preview deployments are created for pull requests
 - All deployments are available in Vercel dashboard
@@ -98,6 +104,7 @@ Once connected to Git:
 ## 📱 Mobile Access
 
 Your app is now accessible on:
+
 - Any mobile browser (Chrome, Safari, Firefox, etc.)
 - Bookmark the URL for quick access
 - Works offline with localStorage (data persists)
@@ -105,6 +112,7 @@ Your app is now accessible on:
 ## 🛠️ Troubleshooting
 
 If deployment fails:
+
 1. Check Vercel build logs in the dashboard
 2. Ensure all dependencies are in `package.json`
 3. Verify Node.js version (Vercel uses Node 18.x by default)
@@ -113,6 +121,7 @@ If deployment fails:
 ## 📊 Monitoring
 
 Vercel provides analytics on the free tier:
+
 - View deployment history
 - Monitor performance
 - Check build logs
